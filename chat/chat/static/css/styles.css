@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Tauri&display=swap');
+body {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+    background-image: url(https://wallpapers.com/images/hd/dark-purple-background-diapiasnn6owzm1k.jpg);
+    font-family: 'Tauri', sans-serif;
+  }
+  
+  .container {
+    border: 2px solid #dedede00;
+    background-color: #f1f1f100;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    margin: 10px auto; /* Changed margin to auto to center horizontally */
+    max-width: 600px; /* Adjust max-width as needed */
+}
+  
+h2 {
+    color: white;
+}
+label {
+    color: white;
+}
+  .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+  }
+  
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+  
+  .time-left {
+    float: left;
+    color: #999;
+  }
+input[type=text], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      }
+  
+input[type=submit] {
+      width: 100%;
+      background-color: #514caf;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      }
+  
+input[type=submit]:hover {
+      background-color: #7d45a0;
+      }
+  
+div {
+      border-radius: 5px;
+      background-color: #f2f2f200;
+      padding: 20px;
+      margin: 10px auto; /* Centering the div horizontally */
+      max-width: 600px; /* Adjust max-width as needed */
+  }
